@@ -251,27 +251,27 @@ a:focus {
 }
 
 .jm-article-img {
-  background: url(../imgs/joshua-maddox-ux-tips.jpg) no-repeat center center;
+  background: url(http://localhost:8888/template-tut/wp-content/themes/cinderhouse/imgs/joshua-maddox-ux-tips.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .jm-article-img-two {
-  background: url(../imgs/coding-960-500.jpg) no-repeat center center;
+  background: url(http://localhost:8888/template-tut/wp-content/themes/cinderhouse/imgs/coding-960-500.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .jm-article-img-three {
-  background: url(../imgs/30-minutes-photo-joshua-maddox.jpg) no-repeat center center;
+  background: url(http://localhost:8888/template-tut/wp-content/themes/cinderhouse/imgs/30-minutes-photo-joshua-maddox.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .jm-article-img-four {
-  background: url(../imgs/joshua_maddox_cinderhouse_creative.jpg) no-repeat center center;
+  background: url(http://localhost:8888/template-tut/wp-content/themes/cinderhouse/imgs/joshua_maddox_cinderhouse_creative.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .jm-article-img-five {
-  background: url(../imgs/blank-960px-500px.jpg) no-repeat center center;
+  background: url(http://localhost:8888/template-tut/wp-content/themes/cinderhouse/imgs/blank-960px-500px.jpg) no-repeat center center;
   background-size: cover;
 }
 

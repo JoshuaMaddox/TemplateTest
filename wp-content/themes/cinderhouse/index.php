@@ -6,8 +6,23 @@ get_header();
 ?>
 
 <!-- Will pull in the content and the heading of what is being queried -->
-<section class="jm-resume" id="section2" >
+<section class="jm-resume" id="section2">
   <div class="container-fluid">
+    <h1><?php echo get_the_title() ?></h1>
+    <main class="main-content">
+      <?php  
+        // Start Wordpress Loop
+        //If posts then pass in posts' object and get the content 
+        if(have_posts()) :
+            while(have_posts()) :
+              the_post();
+                the_content();
+            endwhile;
+        endif;
+      ?>
+    </main>
+
+    <!-- start mark-up from jm-portfolio-theme -->
     <div id="resumeBox" class="row">
       <div class="col-sm-6 jm-resume-toggle-one">
         <div  class="jm-resume-box">
@@ -48,6 +63,8 @@ get_header();
         </div><!--JM-RESUME-BOX-->
       </div><!--COL-->
     </div><!--ROW-->
+    <!-- end mark-up from jm-portfolio-theme -->
+
   </div><!--CONTAINER-->
 </section>
 
