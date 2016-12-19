@@ -35,14 +35,21 @@
           <a class="navbar-brand" href="http://jmaddox.com"><img src="<?php bloginfo('template_url') ?>/imgs/JBM_logo.png" alt="Joshua Maddox" width="166px" height="20px"></a>
         </div><!-- navbar-header -->
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
+
+          <?php 
+            wp_nav_menu( $arg = array (
+              'menu_class' => 'nav navbar-nav navbar-right',
+              'theme_location' => 'primary'
+            ));
+          ?>
+          <!-- <ul class="">
             <li class="active link1"><a id="link1" class="nav-section1" href="#section1">Top</a></li>
             <li><a id="link2" class="nav-section2" href="#section2">Key Positions</a></li>
             <li><a id="link3" class="nav-section3" href="#section3">Quick Points</a></li>
             <li><a id="link4" class="nav-section4" href="#section4">My Projects</a></li>
             <li><a id="link5" class="nav-section5" href="#section5">On The Web</a></li>
             
-          </ul><!-- navigation -->  
+          </ul> --><!-- navigation -->  
         </div><!-- navbar-collapse -->
       </div><!-- container -->  
     </div><!-- navbar -->
